@@ -20,20 +20,12 @@ def main():
    asakita();sunchila();nutriclub();asani();wintershop();datesy();thaifriendly();jumpstart();kinimart();klikwa();bakmikeraton();kopidulukala();kredinesia();pinjamindo();uangpintar();danafix();maucash();omamoriexpress();ktakilat();cairin();kredito();kreditpedia();bocil();duitqu();primacash();temanprima();maripinjam();sobatbangun()
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
-	os.system('clear')
-	auth=m+'  Author : '+k+'./MR.L4M3R'
-	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
-	return '''
-%s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗
-%s┃┈┈┈┣▅╋▅┫┃%s╲╲╲╲╲╲%s╚═╗╠═╝╠═╣║║║
-%s┃┈┃┈╰━╰━━━━━━╮%s╲╲%s╚═╝╩  ╩ ╩╩ ╩
-%s╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣%s╲%s╔═╗╔╦╗╔═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈▉▉▉%s╲%s╚═╗║║║╚═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤%s╲%s╚═╝╩ ╩╚═╝
-%s╲┃┈┈┈┈╭━┳━━━━╯%s╲╲%s╦ ╦╦ ╦╔═╗╔╦╗╔═╗╔═╗╔═╗╔═╗
-%s╲┣━━━━━━┫%s╲╲╲╲╲╲╲%s║║║╠═╣╠═╣ ║ ╚═╗╠═╣╠═╝╠═╝
-%s╲┃┈┈┈┈┈┈┃%s╲╲╲╲╲╲╲%s╚╩╝╩ ╩╩ ╩ ╩ ╚═╝╩ ╩╩  ╩  
-%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
+  print """%s
+  __ __ ___  ___   __  __  ____   __                              
+ | |/ / | | |   \  |    | |    | |  \  |%sAuthor by %smr.l4m3r%s
+ | |    | | | )  | | __ | |____| |   \ |%sGithub %sgithub.com/MR.L4M3R%s
+ |_|    |_| |___/  |/  \| |    | |    \|%sTeam %sSUMBER CYBER TEAM%s
+ =======================================%sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
