@@ -1,4 +1,12 @@
 import requests, json, os, sys, random
+user = raw_input()
+import getpass
+sandi = raw_input('Password: ')
+if sandi == 'MRL4M3R' and user == 'XPLOIT' :
+      print 'Login Berhasil✓'
+      sys.exit
+else:
+       print 'Login GAGAL!()
 #-------------------------------Warna---------------------------------------------------
 qu = '\033[0;36m'
 hi = '\033[0;32m'
