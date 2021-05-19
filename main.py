@@ -1,4 +1,4 @@
-import requests, json, os, sys, random
+import os, sys
 user = raw_input()
 import getpass
 sandi = raw_input('Password: ')
